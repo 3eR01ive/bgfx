@@ -46,8 +46,7 @@ namespace bgfx
 		void* backBufferDS; //< Backbuffer depth/stencil.
 	};
 
-	BGFX_SHARED_LIB_API 
-
+	BGFX_SHARED_LIB_API void setPlatformData(const PlatformData& _hooks);
 } // namespace bgfx
 
 #if BX_PLATFORM_ANDROID
